@@ -323,7 +323,7 @@ def write_aaf(out_path: Path, track_dict: Dict[str, List[Region]],
     print(f"[aaf] Opening {out_path} for writing …")
     with aaf2.open(str(out_path), 'w') as f:
         comp = f.create.CompositionMob()
-        comp.name = "Let it Air Out"
+        comp.name = PTX_FILE.stem
         f.content.mobs.append(comp)
 
         slot_id = 1
