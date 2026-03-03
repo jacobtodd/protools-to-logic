@@ -85,4 +85,4 @@ Without ptformat's documentation and source code, the binary format would have b
 
 ## License
 
-MIT
+Non-Commercial Use Only. Free to use, modify, and share for personal or educational purposes. You may not sell this software or use it for any commercial purpose. See [LICENSE](LICENSE) for full terms.
